@@ -6,6 +6,6 @@ import org.openqa.selenium.By;
 
 public class CategoryNavigationBar extends PageObject {
     public void selectCategory(Category category) {
-        $("*[role=navigation] *[role=list]").find(By.linkText(category.name())).click();
+        $("//*[@class='hl-cat-nav__container']").find(By.linkText(category.name())).click();
     }
 }

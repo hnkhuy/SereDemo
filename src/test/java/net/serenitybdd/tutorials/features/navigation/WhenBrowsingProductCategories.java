@@ -27,6 +27,6 @@ public class WhenBrowsingProductCategories {
         mark.navigatesToCategory(Category.Motors);
 
         //Then
-        mark.shouldSeePageTitleContaining("Auto Parts and Vehicles | eBay");
+        mark.shouldSeePageTitleContaining("Parts and accessories | Motors | eBay");
     }
 }
